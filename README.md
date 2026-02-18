@@ -1,4 +1,4 @@
-# 🧠 LLM CodeGen Evaluation Pass@1 (LiveCodeBench Lite)
+# LLM CodeGen Evaluation Pass@1 (LiveCodeBench Lite)
 
 Evaluate Pass@1 of your Hugging Face model on [LiveCodeBench Lite](https://huggingface.co/datasets/livecodebench/code_generation_lite) using quantization.
 
@@ -21,7 +21,7 @@ Set samples numbers
 # --- Configuration ---
 MAX_SAMPLES_TO_EVALUATE = 100
 ```
-## ▶️ Run
+## Run
 
 The script:
 
@@ -31,7 +31,7 @@ The script:
 * Executes code and tests against public cases
 * Logs pass/fail and output to `result_eval_100.json`
 
-## 📄 Prompt Format
+## Prompt Format
 
 ````
 <|im_start|>system
@@ -41,10 +41,10 @@ You are a helpful coding assistant. Generate only Python code wrapped in ```pyth
 <|im_start|>assistant
 ````
 
-## 📊 Output
+## Output
 
-* ✅ Pass\@1 score
-* 📈 Per-difficulty stats
-* 📂 `result_eval_100.json`
+*  Pass\@1 score
+*  Per-difficulty stats
+*  `result_eval_100.json`
 
 Run in Colab or locally ( 15GB VRAM GPU recommended).
