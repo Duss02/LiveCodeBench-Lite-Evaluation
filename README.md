@@ -2,7 +2,7 @@
 
 Evaluate Pass@1 of your Hugging Face model on [LiveCodeBench Lite](https://huggingface.co/datasets/livecodebench/code_generation_lite) using quantization.
 
-## 🔧 Setup
+## Setup
 
 ```bash
 pip install transformers datasets accelerate bitsandbytes
